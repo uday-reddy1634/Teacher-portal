@@ -1,0 +1,6 @@
+{
+  "name": "Anuchaaya Tech - Faculty Portal",
+  "description": "Executive faculty portal for classroom attendance roll call, scholastic marks and gradebook matrix, curricular distribution, and scholar feedback.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
