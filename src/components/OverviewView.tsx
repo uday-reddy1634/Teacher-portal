@@ -982,7 +982,7 @@ export const OverviewView: React.FC<OverviewViewProps> = ({
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-emerald-500" />
                   <span className={`font-bold ${theme === 'dark' ? 'text-white' : 'text-slate-900'}`}>
-                    Aetheria Central Core LMS
+                    Pathshala Central Core LMS
                   </span>
                 </div>
                 <span className={`text-[10px] font-semibold ${theme === 'dark' ? 'text-gray-400' : 'text-slate-500'}`}>
