@@ -946,7 +946,7 @@ export const LibraryView: React.FC<LibraryViewProps> = ({
               }`}>
                 <span className="material-symbols-outlined text-[#d4af37] text-xl">verified_user</span>
                 <span>
-                  This digital masterwork is licensed under the Aetheria Institutional Library Covenant. Scholars in {selectedGrade} have simultaneous multi-reader clearance.
+                  This digital masterwork is licensed under the Pathshala Library Covenant. Scholars in {selectedGrade} have simultaneous multi-reader clearance.
                 </span>
               </div>
             </div>
