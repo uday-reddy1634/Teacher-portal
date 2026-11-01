@@ -92,14 +92,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
             >
               <img
                 src={BRAND_LOGO_URL}
-                alt="Aetheria Academy Logo"
+                alt="Pathshala Logo"
                 className="h-8 w-auto object-contain"
               />
               <div className="flex flex-col">
                 <span className={`font-display font-bold text-sm tracking-tight leading-none ${
                   theme === 'dark' ? 'text-white' : 'text-slate-900'
                 }`}>
-                  Aetheria Academy
+                  Pathshala
                 </span>
                 <span className={`text-[10px] tracking-widest uppercase font-bold mt-1 ${
                   theme === 'dark' ? 'text-[#d4af37]' : 'text-[#855800]'
