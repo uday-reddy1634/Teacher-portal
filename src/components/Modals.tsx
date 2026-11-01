@@ -178,7 +178,7 @@ export const HandbookModal: React.FC<HandbookModalProps> = ({ isOpen, onClose, t
           <div className="flex items-center gap-2">
             <span className="material-symbols-outlined text-[#d4af37] text-2xl">policy</span>
             <div>
-              <h3 className="font-display font-bold text-lg">Aetheria Faculty Handbook</h3>
+              <h3 className="font-display font-bold text-lg">Pathshala Faculty Handbook</h3>
               <p className={`text-xs ${theme === 'dark' ? 'text-gray-400' : 'text-slate-600 font-medium'}`}>
                 Institutional Governance & Protocol §4.2
               </p>
