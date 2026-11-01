@@ -19,7 +19,7 @@ export const Footer: React.FC<FooterProps> = ({ theme, onOpenPolicyModal }) => {
           <div className="flex items-center gap-1.5 font-bold">
             <span className="material-symbols-outlined text-sm text-[#d4af37]">verified</span>
             <span className={theme === 'dark' ? 'text-white' : 'text-slate-900'}>
-              Aetheria Academy Institutional Governance & Faculty Core
+              Pathshala & Faculty Core
             </span>
           </div>
           <span className="hidden md:inline text-gray-400">•</span>
@@ -57,7 +57,7 @@ export const Footer: React.FC<FooterProps> = ({ theme, onOpenPolicyModal }) => {
             Faculty Support Desk
           </a>
           <span className={`font-normal ${theme === 'dark' ? 'text-gray-500' : 'text-slate-500'}`}>
-            © 2026–2027 Aetheria Academy. Confidential.
+            © 2026–2027 Pathshala. Confidential.
           </span>
         </div>
 
