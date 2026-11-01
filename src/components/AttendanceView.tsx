@@ -151,7 +151,7 @@ export const AttendanceView: React.FC<AttendanceViewProps> = ({
             <span className={`text-[11px] font-semibold uppercase tracking-widest font-mono ${
               theme === 'dark' ? 'text-[#ffe088]' : 'text-[#855800]'
             }`}>
-              FACULTY REGISTRY SYSTEM • INSTITUTIONAL PROTOCOL
+              Pathshala • FACULTY REGISTRY SYSTEM
             </span>
           </div>
           <h1 className={`font-display text-3xl sm:text-4xl font-bold tracking-tight ${
