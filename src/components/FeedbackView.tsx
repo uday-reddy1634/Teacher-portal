@@ -16,7 +16,7 @@ export const FeedbackView: React.FC<FeedbackViewProps> = ({
 }) => {
   const [selectedScholarId, setSelectedScholarId] = useState(scholars[0]?.id || '1');
   const [typology, setTypology] = useState<'commendation' | 'conceptual' | 'intervention'>('commendation');
-  const [noteText, setNoteText] = useState("Julian demonstrated extraordinary polymathic grasp during today's gyroscope experiment. Recommended for Aetheria Physics Olympiad qualifiers.");
+  const [noteText, setNoteText] = useState("Julian demonstrated extraordinary polymathic grasp during today's gyroscope experiment. Recommended for Pathshala Physics Olympiad qualifiers.");
   const [visibleStudent, setVisibleStudent] = useState(true);
   const [pushGuardian, setPushGuardian] = useState(true);
   const [archiveDean, setArchiveDean] = useState(true);
@@ -27,7 +27,7 @@ export const FeedbackView: React.FC<FeedbackViewProps> = ({
 
   const handleTemplate = (type: string) => {
     if (type === 'olympiad') {
-      setNoteText("Julian demonstrated extraordinary polymathic grasp during today's gyroscope experiment. Recommended for Aetheria Physics Olympiad qualifiers.");
+      setNoteText("Julian demonstrated extraordinary polymathic grasp during today's gyroscope experiment. Recommended for Pathshala Physics Olympiad qualifiers.");
       setTypology('commendation');
     } else if (type === 'office_hours') {
       setNoteText(`Encouraged review of harmonic oscillator derivations post-absence. Recommended scheduling Thursday faculty office hours in Kepler Suite 12B.`);
